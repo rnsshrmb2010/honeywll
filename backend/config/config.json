@@ -1,0 +1,31 @@
+{
+   "development": {
+    "username": "root",
+    "password": "RNsshrmb!@#456",
+    "database": "honeywell",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": 3306,
+    "logging": false,
+    "pool": {
+      "max": 120,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 1000
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
